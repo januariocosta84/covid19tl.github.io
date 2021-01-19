@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n    <div class=\"container-fluid w-100 p-3\" style=\"background-color: #eee;\">\n        <h1>Kona ba Aplikasaun </h1>\n        <p>\n            Objetivu husi Aplikasaun ida ne atu fahe informasaun real kona ba dados covid19 iha timor.\n            Basicamente informasaun ida ne foti husi <a target=\"_blank\" href=\"https://api.covid19api.com/\">API covid19</a>  ne'be kostumiza tena tuir \n            Nasaun timor Leste nia no traduz ona ba lian Tetum.\n            Web ida ne’e halo husi angular framework, no ho styling ho css ho bootstrap.\n            Source code ba aplikasaun ne disponvivel ona <strong><a target=\"_blank\" href=\"https://github.com/januariocosta84\">github</a> </strong> \n            karik ita bot sira hakrak modifika bele download nia source code.    \n        </p><br>\n        <p>Obrigado \n        <br> <br>\n        Developer Team</p> \n    </div>\n    <div class=\"container-fluid w-100 p-3\" style=\"background-color: #eee\">\n        <p>\n            Objective of this aplication is to share the real information about covid19 in Timor Leste.\n            Basicaly this information are taken thorough the site   <a target=\"_blank\" href=\"https://api.covid19api.com/\">API covid19</a>which is\n            already costumized  by country Timor Leste and translated to Tetum Language.\n            This aplication is created by using angular framework with its css style and bootstrap.\n            Source code is already available you can find it on <strong><a target=\"_blank\" href=\"https://github.com/januariocosta84\">github</a> </strong>,\n            if you want to modify you can download.\n        </p>\n        <br>\n        <p>\n            Thanks <br> <br>\n            Developer Team.\n        </p>\n           \n\n \n    </div>\n\n        \n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"grid-container\">\n    <div class=\"grid-list\" cols=\"4\">\n       <div>\n            <h1>Kona ba Aplikasaun </h1>\n            <p>\n                Objetivu husi Aplikasaun ida ne atu fahe informasaun real kona ba dados covid19 iha timor.\n                Basicamente informasaun ida ne foti husi <a target=\"_blank\" href=\"https://api.covid19api.com/\">API covid19</a>  ne'be kostumiza tena tuir \n                Nasaun timor Leste nia no traduz ona ba lian Tetum.\n                Web ida ne’e halo husi angular framework, no ho styling ho css ho bootstrap.\n                Source code ba aplikasaun ne disponvivel ona <strong><a target=\"_blank\" href=\"https://github.com/januariocosta84\">github</a> </strong> \n                karik ita bot sira hakrak modifika bele download nia source code.    \n            </p><br>\n            <p>Obrigado \n            <br> <br>\n            Developer Team</p> \n    \n       </div>\n            \n       <p>\n            Objective of this aplication is to share the real information about covid19 in Timor Leste.\n            Basicaly this information are taken thorough the site   <a target=\"_blank\" href=\"https://api.covid19api.com/\">API covid19</a>which is\n            already costumized  by country Timor Leste and translated to Tetum Language.\n            This aplication is created by using angular framework with its css style and bootstrap.\n            Source code is already available you can find it on <strong><a target=\"_blank\" href=\"https://github.com/januariocosta84\">github</a> </strong>,\n            if you want to modify you can download.\n        </p>\n        <br>\n        <p>\n            Thanks <br> <br>\n            Developer Team.\n        </p>\n           \n        <div>\n\n              </div> \n       \n \n            \n        </div>\n</div>\n        \n\n");
 
 /***/ }),
 
@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n        <app-base></app-base>\n        <router-outlet></router-outlet>\n        <hr class=\"featurette-divider\">\n        <footer>\n                <!-- <p class=\"pull-right\"><a href=\"#\">Fi</a></p> -->\n                <p class=\"text-primary\">© 2021 COVID19</p>\n        </footer>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("\n        \n\n        <app-base></app-base>\n        \n       \n        <router-outlet></router-outlet>\n        <hr class=\"featurette-divider\">\n        <footer>\n                <!-- <p class=\"pull-right\"><a href=\"#\">Fi</a></p> -->\n                <p class=\"text-primary\">© 2021 COVID19</p>\n        </footer>\n");
 
 /***/ }),
 
@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"navbar-wrapper\">\n  <div class=\"container-fluid\">\n\n    <nav class=\"navbar navbar-inverse navbar-static-top  bg-success\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          <a class=\"navbar-brand\" routerLink=\"/\" routerLinkActive=\"active\">Covid19 Timor Leste</a>\n        </div>\n        <div id=\"navbar\" class=\"navbar-collapse collapse\">\n          <ul class=\"nav navbar-nav\">\n            <li class=\"active\"> <a routerLink=\"/corona-virus\" routerLinkActive=\"active\">Covid19 Timor Leste</a></li>\n            <li> <a routerLink=\"/population\" routerLinkActive=\"active\">Total Populasaun</a></li>\n            <li> <a routerLink=\"/about-us\" routerLinkActive=\"active\">Kona ba Aplikasaun</a></li>\n            <!-- <li class=\"dropdown\">\n              <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Dropdown <span class=\"caret\"></span></a>\n              <ul class=\"dropdown-menu\">\n                <li><a href=\"#\">Action</a></li>\n                <li><a href=\"#\">Another action</a></li>\n                <li><a href=\"#\">Something else here</a></li>\n                <li role=\"separator\" class=\"divider\"></li>\n                <li class=\"dropdown-header\">Nav header</li>\n                <li><a href=\"#\">Separated link</a></li>\n                <li><a href=\"#\">One more separated link</a></li>\n              </ul>\n            </li> -->\n          </ul>\n        </div>\n      </div>\n    </nav>\n\n  </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("\n<mat-toolbar color=\"primary\" class=\"mat-elevation-z8\">\n  <span> \n      <mat-icon>viruses</mat-icon>\n    Covid19 Timor Leste\n  </span>\n  <div class=\"spacer\">\n\n  </div>\n  <a mat-button routerLink=\"corona-virus\">Home</a>\n  <a mat-button routerLink=\"population\">Populasaun</a>\n  <a mat-button routerLink=\"about-us\">Kona ba ami</a>\n  <a mat-raised-button color=\"warn\" routerLink=\"sign-up\">Sign Up</a>\n</mat-toolbar>\n\n");
 
 /***/ }),
 
@@ -71,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n    <div style=\"font-size:13px; color:#999; text-align:center\">Data atualizado: {{select_data.Date| date:\"dd/MM/yyyy\"}}</div>\n    <div style=\"text-align:center;width:100%\">\n        <h1>\n            <div style=\"display:inline\">\n                <img src=\"assets/images/tn_tt-flag.gif\" width=\"60\" border=\"1 px solid #aaa\">\n            </div>\n            &nbsp;Timor-Leste\n        </h1>\n    </div>\n\n\n    <div id=\"maincounter-wrap\" style=\"display:inline\">\n        <h1>Numeru Komulativu Kaju Konfirmadu:</h1>\n        <div class=\"maincounter-number\">\n            <span style=\"color:#aaa\">{{select_data.Confirmed}}</span>\n        </div>\n    </div>\n    <div id=\"maincounter-wrap\" style=\"margin-top:15px;\">\n            <h1>Kaju Ativu:</h1>\n            <div class=\"maincounter-number\" style=\"color:#8ACA2B \">\n                <span>{{select_data.Active}}</span>\n            </div>\n        </div>\n    \n    <div id=\"maincounter-wrap\" style=\"margin-top:15px;\">\n        <h1>Rekopera:</h1>\n        <div class=\"maincounter-number\" style=\"color:#8ACA2B \">\n            <span>{{select_data.Recovered}}</span>\n        </div>\n    </div>\n\n    <div id=\"maincounter-wrap\" style=\"margin-top:15px\">\n            <h1>Mate:</h1>\n            <div class=\"maincounter-number\">\n                <span>{{select_data.Deaths}}</span>\n            </div>\n        </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"grid-container\">\n    <div class=\"grid-list\" cols=\"2\">\n            <div class=\"style\">\n                    Data atualizado: {{select_data.Date| date:\"dd/MM/yyyy\"}}\n                </div>\n                <div class=\"flag\">\n                    <h1>\n                        <div >\n                            <img src=\"assets/images/tn_tt-flag.gif\" >\n                        </div>\n                        &nbsp;Timor-Leste\n                    </h1>\n                </div>\n            \n            \n                <div id=\"maincounter-wrap\" style=\"display:inline\">\n                    <h1>Numeru Komulativu Kaju Konfirmadu:</h1>\n                    <div class=\"maincounter-number\">\n                        <span style=\"color:#aaa\">{{select_data.Confirmed}}</span>\n                    </div>\n                </div>\n                <div id=\"maincounter-wrap\" style=\"margin-top:15px;\">\n                        <h1>Kaju Ativu:</h1>\n                        <div class=\"maincounter-number\" style=\"color:#8ACA2B \">\n                            <span>{{select_data.Active}}</span>\n                        </div>\n                    </div>\n                \n                <div id=\"maincounter-wrap\" style=\"margin-top:15px;\">\n                    <h1>Rekopera:</h1>\n                    <div class=\"maincounter-number\" style=\"color:#8ACA2B \">\n                        <span>{{select_data.Recovered}}</span>\n                    </div>\n                </div>\n            \n                <div id=\"maincounter-wrap\" style=\"margin-top:15px\">\n                        <h1>Mate:</h1>\n                        <div class=\"maincounter-number\">\n                            <span>{{select_data.Deaths}}</span>\n                        </div>\n                    </div>\n    </div>\n   \n</div>");
 
 /***/ }),
 
@@ -85,6 +85,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<div id=\"maincounter-wrap\">\n    <h1> Total Populasaun Timor Leste\n    </h1>\n    <div class=\"maincounter-number\">\n        <span class=\"rts-counter\" rel=\"timor-leste-population\">\n            <span class=\"rts-nr-sign\"></span>\n            <span class=\"rts-nr-int rts-nr-10e6\">1</span>\n            <span\n                class=\"rts-nr-thsep\">,\n            </span><span class=\"rts-nr-int rts-nr-10e3\">331</span><span\n                class=\"rts-nr-thsep\">,\n            </span><span class=\"rts-nr-int rts-nr-10e0\">987</span></span>\n        </div>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/signup/signup.component.html":
+/*!************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/signup/signup.component.html ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div>\n    <h1 style=\"text-align: center \">Sign Up</h1>\n    <p style=\"text-align: center\">Under construction</p>\n</div>\n");
 
 /***/ }),
 
@@ -488,9 +501,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _population_population_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./population/population.component */ "./src/app/population/population.component.ts");
 /* harmony import */ var _base_base_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./base/base.component */ "./src/app/base/base.component.ts");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
-/* harmony import */ var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/sidenav */ "./node_modules/@angular/material/esm2015/sidenav.js");
-/* harmony import */ var _angular_material_menu__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material/menu */ "./node_modules/@angular/material/esm2015/menu.js");
-/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
+/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
+/* harmony import */ var _material_material_module__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./material/material.module */ "./src/app/material/material.module.ts");
+/* harmony import */ var _signup_signup_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./signup/signup.component */ "./src/app/signup/signup.component.ts");
 
 
 
@@ -507,7 +520,8 @@ __webpack_require__.r(__webpack_exports__);
 const appRoutes = [
     { path: 'corona-virus', component: _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"] },
     { path: 'population', component: _population_population_component__WEBPACK_IMPORTED_MODULE_7__["PopulationComponent"] },
-    { path: 'about-us', component: _about_about_component__WEBPACK_IMPORTED_MODULE_12__["AboutComponent"] }
+    { path: 'about-us', component: _about_about_component__WEBPACK_IMPORTED_MODULE_10__["AboutComponent"] },
+    { path: 'sign-up', component: _signup_signup_component__WEBPACK_IMPORTED_MODULE_12__["SignupComponent"] }
 ];
 let AppModule = class AppModule {
 };
@@ -518,15 +532,15 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"],
             _population_population_component__WEBPACK_IMPORTED_MODULE_7__["PopulationComponent"],
             _base_base_component__WEBPACK_IMPORTED_MODULE_8__["BaseComponent"],
-            _about_about_component__WEBPACK_IMPORTED_MODULE_12__["AboutComponent"],
+            _about_about_component__WEBPACK_IMPORTED_MODULE_10__["AboutComponent"],
+            _signup_signup_component__WEBPACK_IMPORTED_MODULE_12__["SignupComponent"],
         ],
         imports: [
-            _angular_material_menu__WEBPACK_IMPORTED_MODULE_11__["MatMenuModule"],
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+            _material_material_module__WEBPACK_IMPORTED_MODULE_11__["MaterialModule"],
             _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClientModule"],
             _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"],
             _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(appRoutes),
-            _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_10__["MatSidenavModule"],
         ],
         providers: [],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
@@ -546,7 +560,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Jhc2UvYmFzZS5jb21wb25lbnQuY3NzIn0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Jhc2UvYmFzZS5jb21wb25lbnQuY3NzIn0= */");
 
 /***/ }),
 
@@ -590,7 +604,7 @@ BaseComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("#maincounter-wrap {\r\n    margin: auto;\r\n    text-align: center;\r\n    padding-top: 20px;\r\n}\r\n\r\n.maincounter-number {\r\n    font-weight: 700;\r\n    color: #696969;\r\n    font-size: 54px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxZQUFZO0lBQ1osa0JBQWtCO0lBQ2xCLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixjQUFjO0lBQ2QsZUFBZTtBQUNuQiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvaG9tZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI21haW5jb3VudGVyLXdyYXAge1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgcGFkZGluZy10b3A6IDIwcHg7XHJcbn1cclxuXHJcbi5tYWluY291bnRlci1udW1iZXIge1xyXG4gICAgZm9udC13ZWlnaHQ6IDcwMDtcclxuICAgIGNvbG9yOiAjNjk2OTY5O1xyXG4gICAgZm9udC1zaXplOiA1NHB4O1xyXG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("#maincounter-wrap {\r\n    margin: auto;\r\n    text-align: center;\r\n    padding-top: 20px;\r\n}\r\n\r\n.maincounter-number {\r\n    font-weight: 700;\r\n    color: #696969;\r\n    font-size: 54px;\r\n}\r\n\r\n.style{\r\n    padding-top: 10px;\r\n    font-size:13px; \r\n    color:#999; \r\n    text-align:center\r\n}\r\n\r\n.flag{\r\n    text-align:center;width:100%\r\n}\r\n\r\n.flag div{\r\n    display:inline\r\n}\r\n\r\n.flag img{\r\n    width:60px;\r\n    border:1 px solid #aaa\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxZQUFZO0lBQ1osa0JBQWtCO0lBQ2xCLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixjQUFjO0lBQ2QsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLGlCQUFpQjtJQUNqQixjQUFjO0lBQ2QsVUFBVTtJQUNWO0FBQ0o7O0FBRUE7SUFDSSxpQkFBaUIsQ0FBQztBQUN0Qjs7QUFDQTtJQUNJO0FBQ0o7O0FBQ0E7SUFDSSxVQUFVO0lBQ1Y7QUFDSiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvaG9tZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI21haW5jb3VudGVyLXdyYXAge1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgcGFkZGluZy10b3A6IDIwcHg7XHJcbn1cclxuXHJcbi5tYWluY291bnRlci1udW1iZXIge1xyXG4gICAgZm9udC13ZWlnaHQ6IDcwMDtcclxuICAgIGNvbG9yOiAjNjk2OTY5O1xyXG4gICAgZm9udC1zaXplOiA1NHB4O1xyXG59XHJcblxyXG4uc3R5bGV7XHJcbiAgICBwYWRkaW5nLXRvcDogMTBweDtcclxuICAgIGZvbnQtc2l6ZToxM3B4OyBcclxuICAgIGNvbG9yOiM5OTk7IFxyXG4gICAgdGV4dC1hbGlnbjpjZW50ZXJcclxufVxyXG5cclxuLmZsYWd7XHJcbiAgICB0ZXh0LWFsaWduOmNlbnRlcjt3aWR0aDoxMDAlXHJcbn1cclxuLmZsYWcgZGl2e1xyXG4gICAgZGlzcGxheTppbmxpbmVcclxufVxyXG4uZmxhZyBpbWd7XHJcbiAgICB3aWR0aDo2MHB4O1xyXG4gICAgYm9yZGVyOjEgcHggc29saWQgI2FhYVxyXG59Il19 */");
 
 /***/ }),
 
@@ -645,6 +659,46 @@ HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/material/material.module.ts":
+/*!*********************************************!*\
+  !*** ./src/app/material/material.module.ts ***!
+  \*********************************************/
+/*! exports provided: MaterialModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MaterialModule", function() { return MaterialModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm2015/material.js");
+/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/toolbar */ "./node_modules/@angular/material/esm2015/toolbar.js");
+/* harmony import */ var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/grid-list */ "./node_modules/@angular/material/esm2015/grid-list.js");
+
+
+
+
+
+const MaterialComponents = [
+    _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatButtonModule"],
+    _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_3__["MatToolbarModule"],
+    _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatIconModule"],
+    _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_4__["MatGridListModule"]
+];
+let MaterialModule = class MaterialModule {
+};
+MaterialModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+        declarations: [],
+        imports: [MaterialComponents],
+        exports: [MaterialComponents]
+    })
+], MaterialModule);
+
+
+
+/***/ }),
+
 /***/ "./src/app/population/population.component.css":
 /*!*****************************************************!*\
   !*** ./src/app/population/population.component.css ***!
@@ -684,6 +738,50 @@ PopulationComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./population.component.css */ "./src/app/population/population.component.css")).default]
     })
 ], PopulationComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/signup/signup.component.css":
+/*!*********************************************!*\
+  !*** ./src/app/signup/signup.component.css ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3NpZ251cC9zaWdudXAuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/signup/signup.component.ts":
+/*!********************************************!*\
+  !*** ./src/app/signup/signup.component.ts ***!
+  \********************************************/
+/*! exports provided: SignupComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SignupComponent", function() { return SignupComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let SignupComponent = class SignupComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+SignupComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-signup',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./signup.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/signup/signup.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./signup.component.css */ "./src/app/signup/signup.component.css")).default]
+    })
+], SignupComponent);
 
 
 
